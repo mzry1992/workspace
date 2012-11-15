@@ -24,18 +24,12 @@ void DFS(int deep,long long noww,long long nowc,long long lasno)
     if (deep > n)   return;
     if (g[deep].w == lasno)
     {
-        //¼ôÖ¦Èý
         DFS(deep+1,noww,nowc,lasno);
         return;
     }
-    if (nowc+lasc[deep] <= res)
-    {
-        //¼ôÖ¦Ò»
-        return;
-    }
+    if (nowc+lasc[deep] <= res) return;
     if (noww+lasw[deep] <= w)
     {
-        //¼ôÖ¦¶þ
         res = max(res,nowc+lasc[deep]);
         return;
     }

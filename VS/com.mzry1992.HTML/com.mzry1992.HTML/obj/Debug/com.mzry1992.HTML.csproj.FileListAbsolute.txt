@@ -1,0 +1,5 @@
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.HTML\com.mzry1992.HTML\bin\Debug\com.mzry1992.HTML.dll
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.HTML\com.mzry1992.HTML\bin\Debug\com.mzry1992.HTML.pdb
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.HTML\com.mzry1992.HTML\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.HTML\com.mzry1992.HTML\obj\Debug\com.mzry1992.HTML.dll
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.HTML\com.mzry1992.HTML\obj\Debug\com.mzry1992.HTML.pdb

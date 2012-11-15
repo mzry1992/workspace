@@ -1,0 +1,4 @@
+﻿  WebCard.cpp
+e:\文档\工作\vs\webcard\webcard\Form1.h(269): error C2664: “void System::Windows::Forms::Control::Text::set(System::String ^)”: 不能将参数 1 从“int”转换为“System::String ^”
+          没有用户定义的转换运算符，或者
+          不存在从装箱形式的算术类型到目标类型的标准转换

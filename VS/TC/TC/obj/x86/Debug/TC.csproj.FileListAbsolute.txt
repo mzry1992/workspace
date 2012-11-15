@@ -1,0 +1,16 @@
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\TC.exe
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\TC.pdb
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\com.mzry1992.TC.ProblemSet.dll
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\com.mzry1992.HTML.dll
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\com.mzry1992.TC.ProblemSet.pdb
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\com.mzry1992.HTML.pdb
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\TC.Main.resources
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\TC.Properties.Resources.resources
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\TC.exe
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\TC.pdb
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\obj\x86\Debug\TC.tabProblemSet.resources
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\com.mzry1992.Settings.dll
+D:\我的文档\Visual Studio 2010\Projects\TC\TC\bin\Debug\com.mzry1992.Settings.pdb

@@ -1,0 +1,11 @@
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\TCgeter.exe
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\TCgeter.pdb
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\com.mzry1992.Settings.dll
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\com.mzry1992.TC.ProblemSet.dll
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\com.mzry1992.HTML.dll
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\com.mzry1992.Settings.pdb
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\com.mzry1992.TC.ProblemSet.pdb
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\bin\Debug\com.mzry1992.HTML.pdb
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\obj\x86\Debug\TCgeter.exe
+D:\我的文档\Visual Studio 2010\Projects\TCgeter\TCgeter\obj\x86\Debug\TCgeter.pdb

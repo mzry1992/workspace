@@ -1,0 +1,5 @@
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.Settings\com.mzry1992.Settings\bin\Debug\com.mzry1992.Settings.dll
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.Settings\com.mzry1992.Settings\bin\Debug\com.mzry1992.Settings.pdb
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.Settings\com.mzry1992.Settings\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.Settings\com.mzry1992.Settings\obj\Debug\com.mzry1992.Settings.dll
+D:\我的文档\Visual Studio 2010\Projects\com.mzry1992.Settings\com.mzry1992.Settings\obj\Debug\com.mzry1992.Settings.pdb

@@ -1,0 +1,10 @@
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\bin\Debug\ExcelCompare.exe
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\bin\Debug\ExcelCompare.pdb
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\ExcelCompare.Form1.resources
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\ExcelCompare.Properties.Resources.resources
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\ExcelCompare.exe
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\ExcelCompare.pdb
+D:\我的文档\Visual Studio 2010\Projects\ExcelCompare\ExcelCompare\obj\x86\Debug\ExcelCompare.Form2.resources

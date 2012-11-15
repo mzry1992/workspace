@@ -1,0 +1,5 @@
+E:\文档\工作\VS\ShowSolutionInfo\ShowSolutionInfo\bin\Debug\ShowSolutionInfo.exe
+E:\文档\工作\VS\ShowSolutionInfo\ShowSolutionInfo\bin\Debug\ShowSolutionInfo.pdb
+E:\文档\工作\VS\ShowSolutionInfo\ShowSolutionInfo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\文档\工作\VS\ShowSolutionInfo\ShowSolutionInfo\obj\x86\Debug\ShowSolutionInfo.exe
+E:\文档\工作\VS\ShowSolutionInfo\ShowSolutionInfo\obj\x86\Debug\ShowSolutionInfo.pdb

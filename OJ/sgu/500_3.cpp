@@ -41,9 +41,9 @@ struct Line
 
 bool GScmp(Point a,Point b)
 {
-	if (a.x == b.x)
-		return a.y < b.y;
-	return a.x < b.x;
+    if (a.x == b.x)
+        return a.y < b.y;
+    return a.x < b.x;
 }
 
 bool conLine(Point p[],int n)
@@ -93,17 +93,17 @@ double Norm(Point p)
 }
 double NPT(Point P,Line L)
 {
-	return fabs(1.0*((P-L.s)*(L.e-L.s)))/Norm(L.s-L.e);
+    return fabs(1.0*((P-L.s)*(L.e-L.s)))/Norm(L.s-L.e);
 }
 
 long long r;
 
 double cut(Point a,Point b)
 {
-	if (a.x == b.x && a.y == b.y)
-		return -1;
+    if (a.x == b.x && a.y == b.y)
+        return -1;
 
-	double dis = NPT(Point(0,0),Line(a,b));
+    double dis = NPT(Point(0,0),Line(a,b));
     double theta = acos(dis/r);
     double res;
 
@@ -112,7 +112,7 @@ double cut(Point a,Point b)
     else
         res = (pi-theta)*r*r+dis*sqrt(r*r-dis*dis);
 
-    printf("a = (%lld, %lld), b = (%lld, %lld), res = %.8f\n",a.x,a.y,b.x,b.y,res);
+//    printf("a = (%lld, %lld), b = (%lld, %lld), res = %.8f\n",a.x,a.y,b.x,b.y,res);
     return res;
 }
 
@@ -122,7 +122,6 @@ void Gettheta(Point p[],int n)
 {
     for (int i = 0; i < n; i++)
     {
-
         Point v = p[(i+1)%n]-p[i];
         theta[i] = atan2(v.y,v.x);
     }
@@ -146,55 +145,52 @@ int Calc(Point s,Point p[],int n,int& pl,int& pr)
     pl = tpl = tpl%n;
     pr = tpr = tpr%n;
 
-    {
-        while ((p[(pl+1)%n]-s)*(p[pl]-s) < 0)	pl = (pl+1)%n;
-        while ((p[(pr-1+n)%n]-s)*(p[pr]-s) > 0)	pr = (pr-1+n)%n;
-    }
+    while ((p[(pl+1)%n]-s)*(p[pl]-s) < 0)	pl = (pl+1)%n;
+    while ((p[(pr-1+n)%n]-s)*(p[pr]-s) > 0)	pr = (pr-1+n)%n;
 }
 
 double solve(Point pa[],int n,Point pb[],int m)
 {
     Gettheta(pb,m);
 
-    printf("==================\n");
+//    printf("==================\n");
     double res = 0;
     for (int i = 0; i < n; i++)
     {
         int pl,pr;
         Calc(pa[i],pb,m,pl,pr);
 
-        //pa[i]->pb[pr]; pa[i+1]->pa[i]
-
-        //pa[i]->pb[pl]; pa[i-1]->pa[i]
-        printf("-------------------\n");
-        printf("pa[i] = (%lld %lld)\n",pa[i].x,pa[i].y);
-        printf("pl = (%lld %lld), pr = (%lld %lld)\n",pb[pl].x,pb[pl].y,pb[pr].x,pb[pr].y);
+//        pa[i]->pb[pr]; pa[i+1]->pa[i]
+//        pa[i]->pb[pl]; pa[i-1]->pa[i]
+//        printf("-------------------\n");
+//        printf("pa[i] = (%lld %lld)\n",pa[i].x,pa[i].y);
+//        printf("pl = (%lld %lld), pr = (%lld %lld)\n",pb[pl].x,pb[pl].y,pb[pr].x,pb[pr].y);
 
         if ((pb[pl]-pa[i])*(pa[(i+1)%n]-pa[i]) >= 0 &&
                 (pb[pl]-pa[i])*(pa[(i+n-1)%n]-pa[i]) >= 0)
         {
-            puts("pb[pl], pa[i]");
+//            puts("pb[pl], pa[i]");
             res = max(res,cut(pb[pl],pa[i]));
         }
 
         if ((pb[pr]-pa[i])*(pa[(i+1)%n]-pa[i]) <= 0 &&
                 (pb[pr]-pa[i])*(pa[(i+n-1)%n]-pa[i]) <= 0)
         {
-            puts("pa[i], pb[pr]");
+//            puts("pa[i], pb[pr]");
             res = max(res,cut(pa[i],pb[pr]));
         }
 
         if ((pa[(i+1)%n]-pa[i])*(pb[pl]-pa[i]) <= 0 &&
                 (pa[(i+1)%n]-pa[i])*(pb[pr]-pa[i]) <= 0)
         {
-            puts("pa[(i+1)%n], pa[i]");
+//            puts("pa[(i+1)%n], pa[i]");
             res = max(res,cut(pa[(i+1)%n],pa[i]));
         }
 
         if ((pa[(i-1+n)%n]-pa[i])*(pb[pl]-pa[i]) >= 0 &&
                 (pa[(i-1+n)%n]-pa[i])*(pb[pr]-pa[i]) >= 0)
         {
-            puts("pa[i], pa[(i-1+n)%n]");
+//            puts("pa[i], pa[(i-1+n)%n]");
             res = max(res,cut(pa[i],pa[(i-1+n)%n]));
         }
 
@@ -204,7 +200,7 @@ double solve(Point pa[],int n,Point pb[],int m)
                 (pp-pa[i])*(pb[pr]-pa[i]) >= 0 &&
                 (pp-pa[i])*(pb[pl]-pa[i]) >= 0)
         {
-            puts("pa[i], pp");
+//            puts("pa[i], pp");
             res = max(res,cut(pa[i],pp));
         }
     }
@@ -216,7 +212,7 @@ Point pa[MaxN],pb[MaxN],tp[MaxN];
 
 int main()
 {
-	//freopen("input","r",stdin);
+//    freopen("input","r",stdin);
     scanf("%lld",&r);
 
     scanf("%d",&tn);
@@ -241,17 +237,17 @@ int main()
         scanf("%I64d%I64d",&tp[i].x,&tp[i].y);
     GS(tp,tn,pb,m);*/
 
-    //for (int i = 0;i < n;i++)
-    //	printf("(%lld, %lld) ",pa[i].x,pa[i].y);
-    //printf("\n");
-    //for (int i = 0;i < m;i++)
-    //	printf("(%lld, %lld) ",pb[i].x,pb[i].y);
-    //printf("\n");
+//    for (int i = 0;i < n;i++)
+//    	printf("(%lld, %lld) ",pa[i].x,pa[i].y);
+//    printf("\n");
+//    for (int i = 0;i < m;i++)
+//    	printf("(%lld, %lld) ",pb[i].x,pb[i].y);
+//    printf("\n");
 
     double ans1 = solve(pa,n,pb,m);
     double ans2 = solve(pb,m,pa,n);
 
-    //printf("%.10f %.10f\n",ans1,ans2);
+//    printf("%.10f %.10f\n",ans1,ans2);
 
     printf("%.10f %.10f\n",pi*r*r-ans1,ans2);
 
