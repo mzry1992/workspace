@@ -28,8 +28,6 @@ void DP(int u,int fa,int col)
     dp[u] = 0;
     num[u] = 1;
 
-    ans += w[u];
-
     map<int,long long> cols;
     map<int,int> cntcols;
     for (int i = head[u]; i != -1; i = edge[i].next)
@@ -39,13 +37,12 @@ void DP(int u,int fa,int col)
 
         DP(v,u,edge[i].col);
 
-        ans += dp[v]+(long long)num[v]*w[u];
         if (edge[i].col != col)
         {
             dp[u] += dp[v];
             num[u] += num[v];
         }
-
+		ans += dp[v]+(long long)num[v]*w[u];
         cols[edge[i].col] += dp[v];
         cntcols[edge[i].col] += num[v];
     }
@@ -67,10 +64,7 @@ void DP(int u,int fa,int col)
 			tans += cols[coli]*(sumnum-cntcols[coli])+cntcols[coli]*(sumcol-cols[coli]+(sumnum-cntcols[coli])*w[u]);
         }
         ans += tans/2;
-
-		printf("sumcol = %lld, sumnum = %lld, tans = %lld\n",sumcol,sumnum,tans);
     }
-    printf("Node %d : num = %d, dp = %lld, ans = %lld, w[u] = %d,\n",u+1,num[u],dp[u],ans,w[u]);
 }
 
 int main()
