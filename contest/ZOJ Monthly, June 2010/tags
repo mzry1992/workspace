@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+buf	C.cpp	/^char buf[200],words[50][50];$/;"	v
+catalog	C.cpp	/^char language[50][50],catalog[50][50],word[50][50];$/;"	v
+check	C.cpp	/^bool check(char a[],char b[],char c[])$/;"	f
+check	C.cpp	/^void check()$/;"	f
+cnt	C.cpp	/^int cnt;$/;"	v
+language	C.cpp	/^char language[50][50],catalog[50][50],word[50][50];$/;"	v
+m	C.cpp	/^int n,m;$/;"	v
+main	C.cpp	/^int main()$/;"	f
+n	C.cpp	/^int n,m;$/;"	v
+word	C.cpp	/^char language[50][50],catalog[50][50],word[50][50];$/;"	v
+words	C.cpp	/^char buf[200],words[50][50];$/;"	v

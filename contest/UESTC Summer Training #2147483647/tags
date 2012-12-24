@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GS	E.cpp	/^void GS(Point p[],int n,Point res[],int &resn)$/;"	f
+GScmp	E.cpp	/^bool GScmp(Point a,Point b)$/;"	f
+Point	E.cpp	/^    Point() {}$/;"	f	struct:Point
+Point	E.cpp	/^    Point(double _x,double _y)$/;"	f	struct:Point
+Point	E.cpp	/^struct Point$/;"	s	file:
+Rotate	E.cpp	/^    Point Rotate(double theta)$/;"	f	struct:Point
+dist2	E.cpp	/^double dist2(Point a,Point b)$/;"	f
+eps	E.cpp	/^double eps = 1e-12;$/;"	v
+main	E.cpp	/^int main()$/;"	f
+n	E.cpp	/^int tn,n,q;$/;"	v
+operator &	E.cpp	/^    double operator &(const Point& b)const$/;"	f	struct:Point
+operator *	E.cpp	/^    double operator *(const Point& b)const$/;"	f	struct:Point
+operator -	E.cpp	/^    Point operator -(const Point& b)const$/;"	f	struct:Point
+p	E.cpp	/^Point tp[30],p[30];$/;"	v
+pi	E.cpp	/^double pi = acos(-1.0);$/;"	v
+q	E.cpp	/^int tn,n,q;$/;"	v
+r	E.cpp	/^double r;$/;"	v
+tn	E.cpp	/^int tn,n,q;$/;"	v
+tp	E.cpp	/^Point tp[30],p[30];$/;"	v
+x	E.cpp	/^    double x,y;$/;"	m	struct:Point	file:
+y	E.cpp	/^    double x,y;$/;"	m	struct:Point	file:

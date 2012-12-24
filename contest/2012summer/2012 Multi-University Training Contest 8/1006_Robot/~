@@ -1,0 +1,67 @@
+#include <iostream>
+#include <vector>
+#include <cassert>
+
+using namespace std;
+
+#define MAXT 10010
+
+long long A[MAXT];
+
+/* The basis of this solution comes from the following observations
+ * 1. We always should spend all of our money
+ * 2. We should never have an army unit sitting around for more than two rounds
+ * 3. We only buy production when there is nothing else to buy unless we need to
+ *    produce army units over two turns and we have more workers than production
+ */
+int main() {
+  long long W, P, T;
+  for(cin >> W >> P >> T; T; cin >> W >> P >> T) {
+    for(int t = 1; t < T; t++) cin >> A[t];
+
+    /* Make sure we can survive the first turn. */
+    if(A[1] > W || A[1] > P) {
+      cout << "-1" << endl;
+      continue;
+    }
+
+    long long U = A[1];
+    long long R = 0;
+    for(int t = 1; t <= T; t++) {
+      /* At the beginning of each iteration U is the number of additional army
+       * units we need to buy during the iteration to survive the attack A[t] */
+      assert(U <= min(W, P));
+      if(t + 2 > T) {
+        /* End game.  Buy as many army units as we can! */
+        R += min(W, P) - U;
+        P = W;
+        U = 0;
+        if(t == T) cout << R << endl;
+        continue;
+      }
+      /* Otherwise we need to make enough army units to survive the attack at
+       * the end of the next timestamp. */
+      if(A[t + 1] > min(W, P) + W - U) {
+        cout << "-1" << endl;
+        break;
+      } else if(A[t + 1] <= W) {
+        /* We can just build all the army next timestamp. */
+        long long dW = min(W, P) - U;
+        P += W - U - dW;
+        W += dW;
+        U = A[t + 1];
+      } else {
+        /* Otherwise we need to build army across the next two turns.  If we
+         * have excess workers build more production now so we can build more
+         * workers next turn. */
+        long long req = A[t + 1] - W;
+        long long dW = min(W, P) - U - req;
+        long long dr = min(max(0ll, P - W), req);
+        P += W - U - req - dW;
+        U = W + dr;
+        W += dW + dr;
+      }
+    }
+  }
+}
+

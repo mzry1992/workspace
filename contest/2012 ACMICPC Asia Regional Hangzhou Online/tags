@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+a	1009_2.cpp	/^double a[200][200],b[200];$/;"	v
+b	1009_2.cpp	/^double a[200][200],b[200];$/;"	v
+d	1009_2.cpp	/^int n,m,s,t,d;$/;"	v
+getId	1009_2.cpp	/^pair<int,bool> getId(int x)$/;"	f
+m	1009_2.cpp	/^int n,m,s,t,d;$/;"	v
+main	1009_2.cpp	/^int main()$/;"	f
+mp	1009_2.cpp	/^bool mp[201][201];$/;"	v
+n	1009_2.cpp	/^int n,m,s,t,d;$/;"	v
+next	1009_2.cpp	/^int next[200][101];$/;"	v
+p	1009_2.cpp	/^double p[100];$/;"	v
+ret	1009_2.cpp	/^double ret[200];$/;"	v
+s	1009_2.cpp	/^int n,m,s,t,d;$/;"	v
+solve	1009_2.cpp	/^void solve(int n)$/;"	f
+t	1009_2.cpp	/^int n,m,s,t,d;$/;"	v
+to	1009_2.cpp	/^bool to[101];$/;"	v

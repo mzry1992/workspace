@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BuildKD	1001.cpp	/^void BuildKD(int deep,int l,int r,Point p[])$/;"	f
+Div	1001.cpp	/^bool Div[MaxN];$/;"	v
+Find	1001.cpp	/^int Find(int l,int r,Point a,Point p[])$/;"	f
+MaxN	1001.cpp	/^const int MaxN = 100000;$/;"	v
+Point	1001.cpp	/^struct Point$/;"	s	file:
+Q	1001.cpp	/^queue<int> Q;$/;"	v
+cmpX	1001.cpp	/^bool cmpX(const Point& a,const Point& b)$/;"	f
+cmpY	1001.cpp	/^bool cmpY(const Point& a,const Point& b)$/;"	f
+cnt	1001.cpp	/^int cnt[MaxN];$/;"	v
+del	1001.cpp	/^    bool del;$/;"	m	struct:Point	file:
+id	1001.cpp	/^    int id;$/;"	m	struct:Point	file:
+main	1001.cpp	/^int main()$/;"	f
+n	1001.cpp	/^int n;$/;"	v
+p	1001.cpp	/^Point p[MaxN],tp[MaxN];$/;"	v
+r	1001.cpp	/^    double x,y,r;$/;"	m	struct:Point	file:
+tp	1001.cpp	/^Point p[MaxN],tp[MaxN];$/;"	v
+x	1001.cpp	/^    double x,y,r;$/;"	m	struct:Point	file:
+y	1001.cpp	/^    double x,y,r;$/;"	m	struct:Point	file:

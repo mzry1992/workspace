@@ -1,0 +1,172 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARG	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+BLOCK	orz.cpp	/^                 NUMBER, KEYWORD, TEMP, STRING, BLOCK, TYPE$/;"	e	enum:tok_types	file:
+BOOL	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+BRACE_EXPECTED	orz.cpp	/^    BRACE_EXPECTED, COLON_EXPECTED, UNSUPPORTED_TYPE$/;"	e	enum:error_msg	file:
+BREAK	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+CASE	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+CHAR	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+CIN	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+COLON_EXPECTED	orz.cpp	/^    BRACE_EXPECTED, COLON_EXPECTED, UNSUPPORTED_TYPE$/;"	e	enum:error_msg	file:
+CONTINUE	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+COUT	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+DEC	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+DEFAULT	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+DELIMITER	orz.cpp	/^enum tok_types { UNDEFTT, DELIMITER, IDENTIFIER,$/;"	e	enum:tok_types	file:
+DIV_BY_ZERO	orz.cpp	/^    WHILE_EXPECTED, QUOTE_EXPECTED, DIV_BY_ZERO,$/;"	e	enum:error_msg	file:
+DO	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+DOUBLE	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+DUP_FUNC	orz.cpp	/^    SYNTAX, NO_EXP, NOT_VAR, DUP_VAR, DUP_FUNC,$/;"	e	enum:error_msg	file:
+DUP_VAR	orz.cpp	/^    SYNTAX, NO_EXP, NOT_VAR, DUP_VAR, DUP_FUNC,$/;"	e	enum:error_msg	file:
+ELSE	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+END	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+ENDL	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+EQ	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+FALSE	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+FLOAT	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+FOR	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+FUNC_UNDEF	orz.cpp	/^    SEMI_EXPECTED, UNBAL_BRACES, FUNC_UNDEF,$/;"	e	enum:error_msg	file:
+GE	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+GT	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+IDENTIFIER	orz.cpp	/^enum tok_types { UNDEFTT, DELIMITER, IDENTIFIER,$/;"	e	enum:tok_types	file:
+IF	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+INC	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+INT	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+InterpExc	orz.cpp	/^    InterpExc(error_msg e)$/;"	f	class:InterpExc
+InterpExc	orz.cpp	/^class InterpExc$/;"	c	file:
+KEYWORD	orz.cpp	/^                 NUMBER, KEYWORD, TEMP, STRING, BLOCK, TYPE$/;"	e	enum:tok_types	file:
+LE	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+LONG	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+LS	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+LT	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+MAX_ID_LEN	orz.cpp	/^const int MAX_ID_LEN = 31;    \/\/ max identifier length$/;"	v
+MAX_T_LEN	orz.cpp	/^const int MAX_T_LEN  = 128;   \/\/ max token length$/;"	v
+NE	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+NONE	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+NOT_VAR	orz.cpp	/^    SYNTAX, NO_EXP, NOT_VAR, DUP_VAR, DUP_FUNC,$/;"	e	enum:error_msg	file:
+NO_EXP	orz.cpp	/^    SYNTAX, NO_EXP, NOT_VAR, DUP_VAR, DUP_FUNC,$/;"	e	enum:error_msg	file:
+NUMBER	orz.cpp	/^                 NUMBER, KEYWORD, TEMP, STRING, BLOCK, TYPE$/;"	e	enum:tok_types	file:
+NUM_PARAMS	orz.cpp	/^const int NUM_PARAMS = 31;    \/\/ max number of parameters$/;"	v
+PAREN_EXPECTED	orz.cpp	/^    TYPE_EXPECTED, RET_NOCALL, PAREN_EXPECTED,$/;"	e	enum:error_msg	file:
+PROG_SIZE	orz.cpp	/^const int PROG_SIZE  = 10000; \/\/ max program size$/;"	v
+QUOTE_EXPECTED	orz.cpp	/^    WHILE_EXPECTED, QUOTE_EXPECTED, DIV_BY_ZERO,$/;"	e	enum:error_msg	file:
+RETURN	orz.cpp	/^                   RETURN, COUT, CIN, END, ENDL, DEFAULT, CONTINUE, NONE$/;"	e	enum:token_ireps	file:
+RET_NOCALL	orz.cpp	/^    TYPE_EXPECTED, RET_NOCALL, PAREN_EXPECTED,$/;"	e	enum:error_msg	file:
+RS	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	e	enum:double_ops	file:
+SEMI_EXPECTED	orz.cpp	/^    SEMI_EXPECTED, UNBAL_BRACES, FUNC_UNDEF,$/;"	e	enum:error_msg	file:
+SHORT	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+STRING	orz.cpp	/^                 NUMBER, KEYWORD, TEMP, STRING, BLOCK, TYPE$/;"	e	enum:tok_types	file:
+SWITCH	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+SYNTAX	orz.cpp	/^    SYNTAX, NO_EXP, NOT_VAR, DUP_VAR, DUP_FUNC,$/;"	e	enum:error_msg	file:
+TEMP	orz.cpp	/^                 NUMBER, KEYWORD, TEMP, STRING, BLOCK, TYPE$/;"	e	enum:tok_types	file:
+TRUE	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+TYPE	orz.cpp	/^                 NUMBER, KEYWORD, TEMP, STRING, BLOCK, TYPE$/;"	e	enum:tok_types	file:
+TYPE_EXPECTED	orz.cpp	/^    TYPE_EXPECTED, RET_NOCALL, PAREN_EXPECTED,$/;"	e	enum:error_msg	file:
+UNBAL_BRACES	orz.cpp	/^    SEMI_EXPECTED, UNBAL_BRACES, FUNC_UNDEF,$/;"	e	enum:error_msg	file:
+UNDEFTOK	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	e	enum:token_ireps	file:
+UNDEFTT	orz.cpp	/^enum tok_types { UNDEFTT, DELIMITER, IDENTIFIER,$/;"	e	enum:tok_types	file:
+UNSUPPORTED_TYPE	orz.cpp	/^    BRACE_EXPECTED, COLON_EXPECTED, UNSUPPORTED_TYPE$/;"	e	enum:error_msg	file:
+WHILE	orz.cpp	/^                   CASE, IF, ELSE, FOR, DO, WHILE, BREAK,$/;"	e	enum:token_ireps	file:
+WHILE_EXPECTED	orz.cpp	/^    WHILE_EXPECTED, QUOTE_EXPECTED, DIV_BY_ZERO,$/;"	e	enum:error_msg	file:
+abs_var	orz.cpp	/^void abs_var(anonymous_var &v)$/;"	f
+adaptive_assign_var	orz.cpp	/^void adaptive_assign_var(anonymous_var &a, anonymous_var &b)$/;"	f
+add	orz.cpp	/^anonymous_var add(anonymous_var &a, anonymous_var &b)$/;"	f
+anonymous_var	orz.cpp	/^struct anonymous_var$/;"	s	file:
+assign_var	orz.cpp	/^void assign_var(char *vname, anonymous_var value)$/;"	f
+atom	orz.cpp	/^void atom(anonymous_var &value)$/;"	f
+breakfound	orz.cpp	/^bool breakfound = false; \/\/ true if break encountered$/;"	v
+call	orz.cpp	/^void call()$/;"	f
+call_abs	orz.cpp	/^anonymous_var call_abs()$/;"	f
+call_getchar	orz.cpp	/^anonymous_var call_getchar()$/;"	f
+call_putchar	orz.cpp	/^anonymous_var call_putchar()$/;"	f
+call_rand	orz.cpp	/^anonymous_var call_rand()$/;"	f
+check_valid_type	orz.cpp	/^bool check_valid_type(anonymous_var &val)$/;"	f
+cin_var	orz.cpp	/^void cin_var(anonymous_var &v)$/;"	f
+cmp	orz.cpp	/^int cmp(anonymous_var &a, anonymous_var &b)$/;"	f
+com_table	orz.cpp	/^} com_table[] =$/;"	v	typeref:struct:commands
+command	orz.cpp	/^    char command[20];$/;"	m	struct:commands	file:
+commands	orz.cpp	/^struct commands$/;"	s	file:
+continuefound	orz.cpp	/^bool continuefound = false;$/;"	v
+cout_var	orz.cpp	/^void cout_var(anonymous_var &v)$/;"	f
+decl_global	orz.cpp	/^void decl_global()$/;"	f
+decl_local	orz.cpp	/^void decl_local()$/;"	f
+div	orz.cpp	/^anonymous_var div(anonymous_var &a, anonymous_var &b)$/;"	f
+double_ops	orz.cpp	/^enum double_ops { LT = 1, LE, GT, GE, EQ, NE, LS, RS, INC, DEC };$/;"	g	file:
+err	orz.cpp	/^    error_msg err;$/;"	m	class:InterpExc	file:
+error_msg	orz.cpp	/^enum error_msg$/;"	g	file:
+eval_exp	orz.cpp	/^void eval_exp(anonymous_var &value)$/;"	f
+eval_exp0	orz.cpp	/^void eval_exp0(anonymous_var &value)$/;"	f
+eval_exp1	orz.cpp	/^void eval_exp1(anonymous_var &value)$/;"	f
+eval_exp2	orz.cpp	/^void eval_exp2(anonymous_var &value)$/;"	f
+eval_exp3	orz.cpp	/^void eval_exp3(anonymous_var &value)$/;"	f
+eval_exp4	orz.cpp	/^void eval_exp4(anonymous_var &value)$/;"	f
+eval_exp5	orz.cpp	/^void eval_exp5(anonymous_var &value)$/;"	f
+exec_cin	orz.cpp	/^void exec_cin()$/;"	f
+exec_cout	orz.cpp	/^void exec_cout()$/;"	f
+exec_do	orz.cpp	/^void exec_do()$/;"	f
+exec_for	orz.cpp	/^void exec_for()$/;"	f
+exec_if	orz.cpp	/^void exec_if()$/;"	f
+exec_switch	orz.cpp	/^void exec_switch()$/;"	f
+exec_while	orz.cpp	/^void exec_while()$/;"	f
+f_name	orz.cpp	/^    char *f_name; \/\/ function name$/;"	m	struct:intern_func_type	file:
+find_eob	orz.cpp	/^void find_eob()$/;"	f
+find_eol	orz.cpp	/^void find_eol()$/;"	f
+find_func	orz.cpp	/^char *find_func(char *name)$/;"	f
+find_var	orz.cpp	/^anonymous_var find_var(char *vname)$/;"	f
+find_var_type	orz.cpp	/^token_ireps find_var_type(char *vname)$/;"	f
+float_value	orz.cpp	/^    double float_value;$/;"	m	struct:anonymous_var	file:
+func_call_stack	orz.cpp	/^stack<int> func_call_stack;$/;"	v
+func_name	orz.cpp	/^    char func_name[MAX_ID_LEN + 1]; \/\/ name$/;"	m	struct:func_type	file:
+func_ret	orz.cpp	/^void func_ret()$/;"	f
+func_table	orz.cpp	/^vector<func_type> func_table;$/;"	v
+func_type	orz.cpp	/^struct func_type$/;"	s	file:
+get_args	orz.cpp	/^void get_args()$/;"	f
+get_bool_val	orz.cpp	/^bool get_bool_val(anonymous_var &v)$/;"	f
+get_err	orz.cpp	/^    error_msg get_err()$/;"	f	class:InterpExc
+get_params	orz.cpp	/^void get_params()$/;"	f
+get_token	orz.cpp	/^tok_types get_token()$/;"	f
+global_vars	orz.cpp	/^vector<var> global_vars;$/;"	v
+init_var	orz.cpp	/^void init_var(anonymous_var &v)$/;"	f
+int_value	orz.cpp	/^    long int_value;$/;"	m	struct:anonymous_var	file:
+intern_func	orz.cpp	/^} intern_func[] =$/;"	v	typeref:struct:intern_func_type
+intern_func_type	orz.cpp	/^struct intern_func_type$/;"	s	file:
+internal_func	orz.cpp	/^int internal_func(char *s)$/;"	f
+interp	orz.cpp	/^void interp()$/;"	f
+is_float_type	orz.cpp	/^bool is_float_type(token_ireps type)$/;"	f
+is_int_type	orz.cpp	/^bool is_int_type(token_ireps type)$/;"	f
+is_valid_type	orz.cpp	/^bool is_valid_type(token_ireps ti)$/;"	f
+is_var	orz.cpp	/^bool is_var(char *vname)$/;"	f
+isdelim	orz.cpp	/^bool isdelim(char c)$/;"	f
+load_program	orz.cpp	/^bool load_program(char *p, char *fname)$/;"	f
+loc	orz.cpp	/^    char *loc; \/\/ location of entry point in program$/;"	m	struct:func_type	file:
+local_var_stack	orz.cpp	/^vector<var> local_var_stack;$/;"	v
+look_up	orz.cpp	/^token_ireps look_up(char *s)$/;"	f
+main	orz.cpp	/^int main(int argc, char *argv[])$/;"	f
+mul	orz.cpp	/^anonymous_var mul(anonymous_var &a, anonymous_var &b)$/;"	f
+neg_var	orz.cpp	/^void neg_var(anonymous_var &v)$/;"	f
+nest_scope_stack	orz.cpp	/^stack<int> nest_scope_stack;$/;"	v
+p	orz.cpp	/^    anonymous_var (*p)();   \/\/ pointer to the function$/;"	m	struct:intern_func_type	file:
+p_buf	orz.cpp	/^char *p_buf; \/\/ points to start of program buffer$/;"	v
+prescan	orz.cpp	/^void prescan()$/;"	f
+prog	orz.cpp	/^char *prog;  \/\/ current execution point in source code$/;"	v
+putback	orz.cpp	/^void putback()$/;"	f
+ret_type	orz.cpp	/^    token_ireps ret_type; \/\/ return type$/;"	m	struct:func_type	file:
+ret_value	orz.cpp	/^anonymous_var ret_value; \/\/ function return value$/;"	v
+sntx_err	orz.cpp	/^void sntx_err(error_msg error)$/;"	f
+sub	orz.cpp	/^anonymous_var sub(anonymous_var &a, anonymous_var &b)$/;"	f
+tok	orz.cpp	/^    token_ireps tok;$/;"	m	struct:commands	file:
+tok	orz.cpp	/^token_ireps tok; \/\/ internal representation$/;"	v
+tok_types	orz.cpp	/^enum tok_types { UNDEFTT, DELIMITER, IDENTIFIER,$/;"	g	file:
+token	orz.cpp	/^char token[MAX_T_LEN + 1]; \/\/ current token$/;"	v
+token_ireps	orz.cpp	/^enum token_ireps { UNDEFTOK, ARG, BOOL, CHAR, SHORT, INT, LONG, FLOAT, DOUBLE, FALSE, TRUE, SWITCH,$/;"	g	file:
+token_type	orz.cpp	/^tok_types token_type; \/\/ token type$/;"	v
+value	orz.cpp	/^    anonymous_var value;$/;"	m	struct:var	file:
+var	orz.cpp	/^struct var$/;"	s	file:
+var_name	orz.cpp	/^    char var_name[MAX_ID_LEN + 1]; \/\/ name$/;"	m	struct:var	file:
+var_type	orz.cpp	/^    token_ireps var_type; \/\/ data type$/;"	m	struct:anonymous_var	file:
+zero	orz.cpp	/^inline bool zero(double x)$/;"	f
